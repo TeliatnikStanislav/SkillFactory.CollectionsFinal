@@ -12,7 +12,7 @@ class Program
         List<string> listCollection = new List<string>();
         LinkedList<string> linkedListCollection = new LinkedList<string>();
 
-        string[] files = Directory.GetFiles(folderPath, "*.txt");
+        string[] files = Directory.GetFiles(folderPath, "Text1.txt");
 
         Stopwatch listStopwatch = new Stopwatch();
         listStopwatch.Start();
